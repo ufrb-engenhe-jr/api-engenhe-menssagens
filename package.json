@@ -1,0 +1,25 @@
+{
+  "name": "api-engenhe-menssagens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ufrb-engenhe-jr/api-engenhe-menssagens.git",
+  "author": "jeovanedossantossantos <jeovane.ssantos@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "5.4.13",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "nodemon": "^2.0.20"
+  }
+}
